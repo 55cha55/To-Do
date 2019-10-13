@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    background: #FFC469;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+input{
+    background: none;
+    border: solid 1px;
+    font-size: 15px
+    
+}
+
+#button{
+    padding: 5px;
+    background: black;
+    color: white;
+    border: solid 1px black;
+    border-radius: 0 7px 7px 0;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#boxtext{
+    background: white;
+    border-radius: 7px 0 0 7px;
+    padding: 0 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 20px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 0 5px;
+}
+
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.ferramentas{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.box{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.listas{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ToDo{
+    margin-bottom: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    background: #9081DF;
+    
+}
+
+#Doing{
+    margin-bottom: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    background: #ADF6FF;
+}
+
+#Done{
+    margin-bottom: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    background: #B3F576;
+}
+
+
+
+
+#ToDo li:hover{
+    background: black;
+    color: white;
+}
+#Doing li:hover{
+    background: black;
+    color: white;
+}
+#Done li:hover{
+    background: black;
+    color: white;
+}
